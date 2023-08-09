@@ -1,0 +1,15 @@
+
+W
+java:S1854"5Remove this useless assignment to local variable "y".(‰•¸¶ùÿÿÿÿ8¢» Ö1
+R
+java:S1854"5Remove this useless assignment to local variable "x".(¾£‰§8ùÿŸÖ1
+Z
+java:S1858"="get" returns a string, there's no need to call "toString()".(¾£‰§8¡éŸÖ1
+C
+java:S1481"&Remove this unused "x" local variable.(¾£‰§8£€ Ö1
+H
+java:S1481"&Remove this unused "y" local variable.(‰•¸¶ùÿÿÿÿ8Î» Ö1
+_
+java:S1858"="get" returns a string, there's no need to call "toString()".(®”©†şÿÿÿÿ8´éŸÖ1
+X
+java:S1128"<Remove this unused import 'com.amazon.ui.HomeUI.TXT_SEARCH'.(‹‹8Ô» Ö1

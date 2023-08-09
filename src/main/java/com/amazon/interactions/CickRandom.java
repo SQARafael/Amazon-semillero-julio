@@ -5,6 +5,7 @@ package com.amazon.interactions;
  */
 
 import com.amazon.utils.EscrituraExcel;
+import lombok.Data;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
@@ -22,6 +23,7 @@ import static net.serenitybdd.screenplay.Tasks.instrumented;
  */
 public class CickRandom implements Interaction {
     private WebElementFacade element;
+
     @Override
     public <T extends Actor> void performAs(T actor) {
         List<WebElementFacade> listProducts = LBL_NAME_PRODUCTS.resolveAllFor(actor);
