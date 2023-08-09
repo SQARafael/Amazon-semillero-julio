@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45554d89-6924-4e57-95d3-d748491c708f" name="Changes" comment="">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 =======
@@ -16,6 +17,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/questions/ProductValidationQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/questions/ProductValidationQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Data/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Data/Data.xlsx" afterDir="false" />
 >>>>>>> 9a1e340e98b4eaf65dc14526ae1cc8a0c5718429
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +56,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/herla/Documents/cursos/SQA/Amazon-semillero-julio"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/herla/Documents/cursos/SQA/Amazon-semillero-julio&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\semillero\semillero-Julio\Amazon-ScreenPlay-Julio\src\test\resources" />
@@ -119,16 +123,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/amazon/questions/ProductValidationQuestion.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

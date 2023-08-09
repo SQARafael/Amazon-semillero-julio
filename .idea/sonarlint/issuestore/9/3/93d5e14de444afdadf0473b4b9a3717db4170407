@@ -1,9 +1,0 @@
-
-w
-java:S1104"\Make LBL_NAME_PRODUCT a static final constant or non-public and provide accessors if needed.(«ëØÞýÿÿÿÿ
-Q
-java:S1444"6Make this "public static LBL_NAME_PRODUCT" field final(«ëØÞýÿÿÿÿ
-v
-java:S3008"[Rename this field "LBL_NAME_PRODUCT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ëØÞýÿÿÿÿ
-U
-java:S1118":Add a private constructor to hide the implicit public one.(½ðú¹ýÿÿÿÿ
