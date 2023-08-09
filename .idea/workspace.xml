@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45554d89-6924-4e57-95d3-d748491c708f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/utils/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/amazon/utils/EscrituraExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/interactions/CickRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/interactions/CickRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/questions/ProductValidationQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/questions/ProductValidationQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/tasks/HomeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/tasks/HomeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/tasks/ProductsCatalogTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/tasks/ProductsCatalogTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/ui/HomeUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/ui/HomeUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/ui/ProductDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/ui/ProductDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/amazon/ui/ProductsCatalogUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/amazon/ui/ProductsCatalogUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/amazon/stepDefinitions/AddProductToCartStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/amazon/stepDefinitions/AddProductToCartStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/addProductToCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/addProductToCart.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
