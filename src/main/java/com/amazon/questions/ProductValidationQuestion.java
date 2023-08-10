@@ -11,8 +11,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
-import static com.amazon.ui.CartUI.LBL_NAME_PRODUCT;
-import static com.amazon.ui.CartUI.TXT_QTY;
+import static com.amazon.ui.CartUI.*;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 /**
@@ -25,7 +24,10 @@ public class ProductValidationQuestion implements Question<Boolean> {
         WebElementFacade nameProduct = LBL_NAME_PRODUCT.resolveFor(actor);
         WaitUntil.the(LBL_NAME_PRODUCT, isVisible()).forNoMoreThan(5).seconds();
         String nameProductSubs = nameProduct.getText().toString().substring(0, (nameProduct.getText().toString().length()-3));
-        return Data.extractTo().get(0).get("Validation").contains(nameProductSubs);
+        String saa = TXT_QTY_SEC.resolveFor(actor).getValue();
+        int qtyAux = Integer.parseInt(saa);
+        int n = SelectQty.qty;
+        return Data.extractTo().get(0).get("Validation").contains(nameProductSubs) && SelectQty.qty == qtyAux ;
     }
 
     public static Question<Boolean> from(){

@@ -14,6 +14,7 @@ import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class SelectQty implements Interaction {
 
+    public static int qty;
 
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -21,6 +22,7 @@ public class SelectQty implements Interaction {
         List<WebElementFacade> listQty = TXT_QTY_LIST.resolveAllFor(actor);
         Random random= new Random();
         int indexRandom= random.nextInt(listQty.size());
+        qty = indexRandom + 1;
         listQty.get(indexRandom).click();
     }
 
