@@ -28,13 +28,10 @@ public class HomeTask implements Task {
     private  static ArrayList<Map<String, String>> data= new ArrayList<>();
     @Override
     public <T extends Actor> void performAs(T actor) {
-
-
         actor.attemptsTo(
                 WaitUntil.the(TXT_SEARCH, isVisible()).forNoMoreThan(30).seconds(),
                 Enter.theValue(Data.extractTo().get(0).get("Search")).into(TXT_SEARCH).thenHit(Keys.ENTER)
         );
-
     }
 
     public static HomeTask on(){

@@ -20,7 +20,6 @@ public class ProductsCatalogTask implements Task {
         actor.attemptsTo(
                 CickRandom.click()
         );
-
     }
 
     public static ProductsCatalogTask on(){

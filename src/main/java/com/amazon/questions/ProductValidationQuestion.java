@@ -24,10 +24,7 @@ public class ProductValidationQuestion implements Question<Boolean> {
         WebElementFacade nameProduct = LBL_NAME_PRODUCT.resolveFor(actor);
         WaitUntil.the(LBL_NAME_PRODUCT, isVisible()).forNoMoreThan(5).seconds();
         String nameProductSubs = nameProduct.getText().toString().substring(0, (nameProduct.getText().toString().length()-3));
-        String saa = TXT_QTY_SEC.resolveFor(actor).getValue();
-        int qtyAux = Integer.parseInt(saa);
-        int n = SelectQty.qty;
-        return Data.extractTo().get(0).get("Validation").contains(nameProductSubs) && SelectQty.qty == qtyAux ;
+        return Data.extractTo().get(0).get("Validation").contains(nameProductSubs) && SelectQty.qty == Integer.parseInt(TXT_QTY_SEC.resolveFor(actor).getValue()) ;
     }
 
     public static Question<Boolean> from(){

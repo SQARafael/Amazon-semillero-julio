@@ -15,7 +15,6 @@ public class ClickToCart implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         TXT_ADD_CART.resolveFor(actor).click();
-        //WaitUntil.the(TXT_GO_CART, isVisible()).forNoMoreThan(5).seconds();
         if(!TXT_GO_CART.resolveFor(actor).isVisible()){
             TXT_GO_CART_SEC.resolveFor(actor).click();
         }else {

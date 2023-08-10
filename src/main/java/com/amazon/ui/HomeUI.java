@@ -11,7 +11,6 @@ import net.serenitybdd.screenplay.targets.Target;
  * @Fecha: --o--
  */
 public class HomeUI {
-
     public static Target TXT_SEARCH=Target.the("Textbox search")
             .locatedBy("//input[@id='twotabsearchtextbox']");
 }
