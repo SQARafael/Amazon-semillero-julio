@@ -1,26 +1,10 @@
 
-_
-/src/main/java/com/amazon/ui/ProductDetails.java,9\3\93d5e14de444afdadf0473b4b9a3717db4170407
-W
-'src/main/java/com/amazon/ui/CartUI.java,8\a\8a645abf65b9f2093dbf1412b15692d6b63f7b46
-q
-Asrc/main/java/com/amazon/questions/ProductValidationQuestion.java,b\7\b7a1ab2f9b641173bea8fbb8bf6abd31ebd6465d
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 \
-,src/test/java/com/amazon/runners/Runner.java,d\2\d26d85a249281749c01d5fcaf9bc8acdc1b1aa66
-\
 ,src/main/java/com/amazon/tasks/HomeTask.java,4\f\4f9c07474ce48dcae9bf552dd661821d11600a63
-g
-7src/main/java/com/amazon/tasks/ProductsCatalogTask.java,c\c\cced7ac238a182485983c696404ed8f99d046f7a
-d
-4src/main/java/com/amazon/interactions/SelectQty.java,c\9\c94b99d87a79b4d8cfc802793a3b9270df2db92b
-f
-6src/main/java/com/amazon/tasks/ProductDetailsTask.java,c\8\c8908e70b0cdb566cbcc7d1fa0755af741618f8b
 e
 5src/main/java/com/amazon/interactions/CickRandom.java,9\8\9872590d1ad5b4410fd82fae00b5c0fb57aa8fd3
-f
-6src/main/java/com/amazon/interactions/ClickToCart.java,b\8\b88fc76f035337e3eddf8440b8bc4bfa34e32a7c
 X
 (src/main/java/com/amazon/utils/Data.java,c\d\cd19436e8aa58465734ca63978e43ffeef195abd
 Y

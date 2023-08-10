@@ -24,7 +24,8 @@ public class ProductValidationQuestion implements Question<Boolean> {
     public Boolean answeredBy(Actor actor) {
         WebElementFacade nameProduct = LBL_NAME_PRODUCT.resolveFor(actor);
         WaitUntil.the(LBL_NAME_PRODUCT, isVisible()).forNoMoreThan(5).seconds();
-        return Data.extractTo().get(0).get("Validation").contains(nameProduct.getText().toString());
+        String nameProductSubs = nameProduct.getText().toString().substring(0, (nameProduct.getText().toString().length()-3));
+        return Data.extractTo().get(0).get("Validation").contains(nameProductSubs);
     }
 
     public static Question<Boolean> from(){

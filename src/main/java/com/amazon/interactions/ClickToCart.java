@@ -5,6 +5,7 @@ import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
+import static com.amazon.ui.CartSecondUI.TXT_GO_CART_SEC;
 import static com.amazon.ui.ProductDetails.TXT_ADD_CART;
 import static com.amazon.ui.ProductDetails.TXT_GO_CART;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
@@ -14,8 +15,12 @@ public class ClickToCart implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         TXT_ADD_CART.resolveFor(actor).click();
-        WaitUntil.the(TXT_GO_CART, isVisible()).forNoMoreThan(8).seconds();
-        TXT_GO_CART.resolveFor(actor).click();
+        //WaitUntil.the(TXT_GO_CART, isVisible()).forNoMoreThan(5).seconds();
+        if(!TXT_GO_CART.resolveFor(actor).isVisible()){
+            TXT_GO_CART_SEC.resolveFor(actor).click();
+        }else {
+            TXT_GO_CART.resolveFor(actor).click();
+        }
     }
 
     public static Performable click(){

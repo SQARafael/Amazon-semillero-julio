@@ -18,8 +18,9 @@ public class ProductDetails {
     public static Target TXT_QTY_LIST=Target.the("List of qty")
             .locatedBy("//select[@id='quantity']/option");
 
+
     public static Target TXT_ADD_CART=Target.the("Add product to cart")
-            .located(By.id("add-to-cart-button"));
+            .locatedBy("//span[@class='a-button-inner']//input[@id='add-to-cart-button']");
 
     public static Target TXT_GO_CART=Target.the("Add product to cart")
             .locatedBy("//span[@id='attach-sidesheet-view-cart-button']/*/input[@class='a-button-input']");

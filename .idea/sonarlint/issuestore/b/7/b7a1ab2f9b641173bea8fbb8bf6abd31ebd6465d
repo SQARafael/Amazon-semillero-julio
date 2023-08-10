@@ -1,7 +1,0 @@
-
-^
-java:S1858"A"getText" returns a string, there's no need to call "toString()".(Š®®¦8ÊÀ£ô1
-[
-java:S1128">Remove this unused import 'com.amazon.interactions.SelectQty'.(»ßÚË8¥µşó1
-V
-java:S1128"9Remove this unused import 'com.amazon.ui.CartUI.TXT_QTY'.(Á¼Â8¥µşó1
