@@ -42,8 +42,4 @@ public class CickRandom implements Interaction {
     public static Performable click(){
         return instrumented(CickRandom.class);
     }
-
-    public WebElementFacade getElement() {
-        return element;
-    }
 }

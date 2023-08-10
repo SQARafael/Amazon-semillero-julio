@@ -6,6 +6,7 @@ package com.amazon.stepDefinitions;
 
 import com.amazon.questions.ProductValidationQuestion;
 import com.amazon.tasks.HomeTask;
+import com.amazon.tasks.ProductDetailsTask;
 import com.amazon.tasks.ProductsCatalogTask;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
@@ -38,11 +39,12 @@ public class AddProductToCartStepDef {
     @When("user click  on  product tittle and user click on add to cart")
     public void userClickOnProductTittleAndUserClickOnAddToCart() {
         theActorInTheSpotlight().attemptsTo(
-                ProductsCatalogTask.on()
+                ProductsCatalogTask.on(),
+                ProductDetailsTask.on()
         );
 
     }
-    @Then("user can read the product name from excel.")
+    @Then("user can read the product name from excel")
     public void userCanReadTheProductNameFromExcel() {
         theActorInTheSpotlight().should(
                 seeThat(
