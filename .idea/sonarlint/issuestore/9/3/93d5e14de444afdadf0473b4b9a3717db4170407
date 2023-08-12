@@ -1,0 +1,29 @@
+
+p
+java:S1104"SMake TXT_QTY a static final constant or non-public and provide accessors if needed.(¶±8Á‚ ‡1
+u
+java:S1104"XMake TXT_QTY_LIST a static final constant or non-public and provide accessors if needed.(Ì¾¬Œ8Á‚ ‡1
+u
+java:S1104"XMake TXT_ADD_CART a static final constant or non-public and provide accessors if needed.(ä•û£8Á‚ ‡1
+s
+java:S1104"WMake TXT_GO_CART a static final constant or non-public and provide accessors if needed.(Ø¬—8Ñ‚ ‡1
+J
+java:S1444"-Make this "public static TXT_QTY" field final(¶±8Ñ‚ ‡1
+O
+java:S1444"2Make this "public static TXT_QTY_LIST" field final(Ì¾¬Œ8Ñ‚ ‡1
+O
+java:S1444"2Make this "public static TXT_ADD_CART" field final(ä•û£8Ñ‚ ‡1
+M
+java:S1444"1Make this "public static TXT_GO_CART" field final(Ø¬—8Ñ‚ ‡1
+o
+java:S3008"RRename this field "TXT_QTY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶±8Ñ‚ ‡1
+t
+java:S3008"WRename this field "TXT_QTY_LIST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¾¬Œ8Ñ‚ ‡1
+t
+java:S3008"WRename this field "TXT_ADD_CART" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä•û£8Ñ‚ ‡1
+r
+java:S3008"VRename this field "TXT_GO_CART" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¬—8Ñ‚ ‡1
+\
+java:S1118":Add a private constructor to hide the implicit public one.(½ğú¹ıÿÿÿÿ8Ñ‚ ‡1
+P
+java:S1128"3Remove this unused import 'org.openqa.selenium.By'.(ÿŠŞ›8É×1
