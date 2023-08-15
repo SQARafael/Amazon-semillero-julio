@@ -15,7 +15,7 @@ plugins {
 }
 
 defaultTasks 'clear', 'test', 'aggregate'
-group 'com.exito'
+group 'com.amazon'
 version '1.0-SNAPSHOT'
 
 compileJava.options.encoding = "UTF-8"

@@ -1,3 +1,9 @@
 
+x
+java:S1450"VRemove the "element" field and declare it as a local variable in the relevant methods.(ÇÅéªÿÿÿÿÿ8÷»¶›Ÿ1
+:
+java:S2119"Save and re-use this "Random".(¼İÅf8ã½¶›Ÿ1
 J
 java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8“ÂÃ¥1
+M
+java:S1068"+Remove this unused "element" private field.(ÇÅéªÿÿÿÿÿ8ù½¶›Ÿ1
